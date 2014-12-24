@@ -55,15 +55,15 @@
 
   function findAndReplaceKB(){
     findAndReplace('\\b(KB\\d{7})\\b',
-                   '<a href=\"https://yale.service-now.com/kb_view.do?sysparm_article=$&\" target=\"_blank\">$&</a>'
+                   '<a href=\"https://finishline.service-now.com/kb_view.do?sysparm_article=$&\" target=\"_blank\">$&</a>'
     );
   }
   function findAndReplaceINC(){
     findAndReplace('\\b(INC\\d{7})\\b',
-                   '<a href=\"https://yale.service-now.com/textsearch.do?sysparm_no_redirect=true&sysparm_search=$&\" target=\"_blank\">$&</a>'
+                   '<a href=\"https://finishline.service-now.com/textsearch.do?sysparm_no_redirect=true&sysparm_search=$&\" target=\"_blank\">$&</a>'
     );
     //findAndReplace('\\b(INC-\\d{3}-\\d{4})\\b',
-                   //'<a href=\"https://yale.service-now.com/textsearch.do?sysparm_no_redirect=true&sysparm_search=$&\" target=\"_blank\">$&</a>'
+                   //'<a href=\"https://finishline.service-now.com/textsearch.do?sysparm_no_redirect=true&sysparm_search=$&\" target=\"_blank\">$&</a>'
     //);
   }
 
